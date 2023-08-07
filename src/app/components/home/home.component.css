@@ -83,12 +83,15 @@
     .container{
        
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:150px ;
         
     }
     .intro{
         color: rgb(255, 214, 214);
         font-family: 'Black Ops One', cursive;
-        font-size: 43px;
+        font-size: 33px;
         
     
     }

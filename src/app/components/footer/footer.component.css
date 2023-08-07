@@ -1,13 +1,6 @@
 footer{
-    /* height: 15%;
-    position: fixed;
-   
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%); */
-    
+    background-color:  #1C1D1D;
 }
-
 .logos{
     display: flex;
     flex-direction: row;
@@ -23,3 +16,9 @@ footer{
     width: 40px;
     
 }
+@media  screen and (max-width:640px) {
+   
+    footer{
+        margin-top: 150px;
+    }
+  }
