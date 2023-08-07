@@ -24,6 +24,7 @@ export const projects:any=[
         id:4,
         name:"Graphical Password Authentication",
         desc:"This Project was built by our team during internal hackathon for sih.With the help of Graphical password Authentication we can eliminate various attacks such as Dictionary Attack, Shoulder surfing Attack ,keylogger attack.Used JSON Web Token for authorization and MongoDB as database to store information    about user and selected images",
-        tech:" Nodejs,javscript,Mongodb"
+        tech:" Nodejs,javscript,Mongodb",
+        link:"https://github.com/Badal-Jha/kaptan"
      },
 ]
