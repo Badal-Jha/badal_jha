@@ -1,0 +1,31 @@
+<div class="projects-container">
+ 
+
+    <div class="container" >
+        <div class="card" *ngFor="let project of projects">
+          <div class="box">
+            <div class="content">
+              <h2>{{project.id}}</h2>
+              <h3>{{project.name}}</h3>
+              <p> {{project.desc}}</p>
+              <h4><span class="techstack">Techstack:</span>{{project.tech}}</h4>
+                <a href={{project.link}}>Source code</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>01</h2>
+              <h3>Shoppify</h3>
+              <p> developed a product community website that allows customers to register, add products, and view product details with average ratings and reviews. Additionally, I implemented an admin functionality to manage new reviews, providing the ability to approve or reject them.</p>
+              <h4><span class="techstack">Techstack:</span> SpringBoot, Angular,
+                MySql, Tomcat, Hibernate, RestFul APIs</h4>
+                <a href="#">Source code</a>
+            </div>
+          </div>
+        </div> -->
+      
+
+      </div>
+</div>

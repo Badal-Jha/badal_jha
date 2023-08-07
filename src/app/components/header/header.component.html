@@ -1,0 +1,31 @@
+<!-- Main navigation container -->
+<nav class="navbar" [ngClass]="{'active': isNavVisible}">
+  <div class="navbar-container">
+    <div class="logo">
+      <h1><a routerLink="/">🤖 Welcome</a></h1>
+    </div>
+   
+    <!-- Collapsible navbar container -->
+   
+  </div>
+ <div>
+  <div class="menu-icon" (click)="toggleNavVisibility()" >
+    <div class="icon">
+      <span class="[&>svg]:w-7">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+          <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div class="nav-items" [ngClass]="{'visible': isNavVisible}">
+    <ul>
+      <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </div>
+ </div>
+  
+</nav>

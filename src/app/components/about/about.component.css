@@ -1,0 +1,48 @@
+/* styles.css */
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  font-family: 'quicksand', cursive;
+  color: rgb(253, 244, 235);
+ 
+  }
+  
+  h2 {
+   
+    font-weight: bold;
+    margin-bottom: 7px;
+  }
+  
+  .about-me p {
+    font-size: 1.0rem;
+    
+    margin-bottom: 6px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Media Query for responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    h2 {
+      font-size: 1.8rem;
+    }
+    .about-me p,
+    .skills-list li {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+a{
+    font-family: 'Black Ops One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+color: rgb(255, 214, 214);
+font-size: 1.3rem;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 20px;
+    color: rgb(255, 214, 214);
+}
+.links{
+    margin-left: 10px;
+}
+/* Navbar styles */
+.navbar {
+    background-color: #1C1D1D;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+
+ 
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+  
+  .nav-items {
+    display: flex;
+  }
+  
+  .nav-items ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-items ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-items {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-items.visible {
+      display: flex;
+    }
+  
+    .nav-items ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
